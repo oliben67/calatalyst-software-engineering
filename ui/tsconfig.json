@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "module": "NodeNext",
+    "module": "ES2022",
     "moduleResolution": "Bundler",
     "lib": ["ES2022", "DOM"],
     "jsx": "react-jsx",
@@ -15,10 +15,10 @@
     "rootDir": ".",
     "baseUrl": ".",
     "paths": {
-      "catalyst-core": ["../../../../../catalyst-ui/packages/catalyst-core/src/index.ts"],
-      "marked": ["../../../../../catalyst-ui/node_modules/marked"],
-      "react": ["../../../../../catalyst-ui/node_modules/@types/react"],
-      "react/*": ["../../../../../catalyst-ui/node_modules/@types/react/*"]
+      "catalyst-core": ["../../catalyst-ui/packages/catalyst-core/dist/index.d.ts"],
+      "marked": ["../../catalyst-ui/node_modules/marked"],
+      "react": ["../../catalyst-ui/node_modules/@types/react"],
+      "react/*": ["../../catalyst-ui/node_modules/@types/react/*"]
     }
   },
   "include": ["*.ts", "*.tsx"]
